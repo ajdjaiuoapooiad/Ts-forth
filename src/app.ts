@@ -13,3 +13,9 @@ if(button){
 }
 
 printOutput(add(5))
+
+const hobby = ['soccer','tennis']
+const activeHobbies = ['baseboll']
+
+activeHobbies.push(...hobby)
+console.log(activeHobbies);
